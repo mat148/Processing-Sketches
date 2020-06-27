@@ -8,5 +8,8 @@ Built after learning the basics of Processing then experimented with adjusting t
 ## Ball Bounce
 Using basic variables and if statements created a ball that would bounce back and forth between the left and right side of the screen. Then experimented by adding Y direction, random start location, random size, random speed, random X and Y direction, and finally changing the color of the circle after bouncing off the wall.
 
+## While Circle
+Exploring the while loop.
+
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
