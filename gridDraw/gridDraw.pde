@@ -1,30 +1,36 @@
-float x;
-float y;
-float spacing = 50;
+float x = 0;
+float y = 0;
+float xSpacing;
+float xNumberLines = 30;
+float xStrokeWeight = 2;
+float a = 0;
+
+float ySpacing;
+float yNumberLines = 30;
+float yStrokeWeight = 2;
+float b = 0;
 
 void setup() {
   size(400, 300);
+  
+  //Calculate x spacing
+  xSpacing = (width / (xNumberLines));
+  ySpacing = (height / (yNumberLines));
 }
 
 void draw() {
-  //background(0);
-  
   stroke(255);
-  strokeWeight(2);
+  strokeWeight(xStrokeWeight);
   
-  //line(x, 0, x, 300);
-  
-  //x = 50;
-  while(x < width) {
-    print(x);
-    //line(x, 0, x, height);
-    line(x, 0, x, 300);
-    x = x + spacing;
+  while(a <= xNumberLines) {
+    line(x, 0, x, height);
+    x = x + xSpacing;
+    a++;
   }
   
-  //y = spacing;
-  /*while(y < height) {
+  while(b <= yNumberLines) {
     line(0, y, width, y);
-    y = y + spacing;
-  }*/
+    y = y + ySpacing;
+    b++;
+  }
 }

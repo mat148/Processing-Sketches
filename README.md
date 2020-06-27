@@ -11,5 +11,8 @@ Using basic variables and if statements created a ball that would bounce back an
 ## While Circle
 Exploring the while loop.
 
+## Grid Draw
+Started with a grid drawing exercise with hard coded numbers using a while loop. Then experiemented by adding stroke width and number of lines variables for both X and Y. The script calculates the spacing then draws out the grid.
+
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
