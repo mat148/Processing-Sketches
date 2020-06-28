@@ -14,5 +14,8 @@ Exploring the while loop.
 ## Grid Draw
 Started with a grid drawing exercise with hard coded numbers using a while loop. Then experiemented by adding stroke width and number of lines variables for both X and Y. The script calculates the spacing then draws out the grid.
 
+## Grid Draw V2
+Took the previous grid draw and converted it to use a for loop instead of a while loop reducing complexity and length from 36 to 28 lines.
+
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
